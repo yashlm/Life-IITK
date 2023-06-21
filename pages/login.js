@@ -49,7 +49,7 @@ function LoginPage() {
           Login
         </Button>
         <Typography variant="body2">
-          Don't have an account?{' '}
+            Don&apos;t have an account?{' '}
           <Link href="/signup">
             <Button style={{ backgroundColor: pink[500], color: 'white'}}>Signup</Button>
           </Link>
