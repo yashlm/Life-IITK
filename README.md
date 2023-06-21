@@ -59,4 +59,4 @@ The website is mostly responsive, but some things like buttons in resource and r
 
 --------------------
 
-The link to the website: 
+The link to the website: https://life-iitk-yashc22.netlify.app/
