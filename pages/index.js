@@ -24,7 +24,7 @@ const OverviewSection = styled('section')(({ theme }) => ({
 }));
 
 const SectionHeading = styled(Typography)(({ theme }) => ({
-  color: theme.palette.common.white,
+  color: theme.palette.common.black,
   marginBottom: '2rem',
 }));
 
@@ -48,7 +48,7 @@ function HomePage() {
         <section>
           <Container maxWidth="md" sx={{ textAlign: 'center', paddingTop: '1rem', paddingBottom: '2rem' }}>
             <SectionHeading variant="h4" component="h2" sx={{ marginBottom: '2rem' }}>
-              Explore Course Helper
+              Explore Course Helper!
             </SectionHeading>
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
@@ -78,14 +78,13 @@ function HomePage() {
                       Read and write reviews for courses, providing insights on grading patterns, workload, teaching style, and more.
                     </Typography>
                   </CardContent>
-                  <Link href="/reviews" passHref>
+                  <Link href="/review" passHref>
                     <Button variant="contained" color="primary">
                       View Reviews
                     </Button>
                   </Link>
                 </Card>
               </Grid>
-              {/* Add more cards for other app functionality */}
             </Grid>
           </Container>
         </section>
